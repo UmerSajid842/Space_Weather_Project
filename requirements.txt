@@ -2,9 +2,9 @@ streamlit
 pandas
 numpy
 matplotlib
-plotly
+seaborn
 scikit-learn
 statsmodels
 shap
+plotly
 requests
-seaborn
