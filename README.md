@@ -1,6 +1,20 @@
 # Space Weather Intelligence: Forecasting, Anomaly Detection, and Explainable AI
 
-An end-to-end machine-learning portfolio project that studies solar and space-weather telemetry through time-series forecasting, anomaly detection, risk modeling, and SHAP-based explainability. The repository combines an exploratory research notebook with a polished Streamlit dashboard that presents validated telemetry outputs and saved model artifacts.
+[![CI](https://github.com/UmerSajid842/Space_Weather_Project/actions/workflows/ci.yml/badge.svg)](https://github.com/UmerSajid842/Space_Weather_Project/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-174A72.svg)](LICENSE)
+
+An end-to-end machine-learning portfolio project that studies solar and space-weather telemetry through time-series forecasting, anomaly detection, risk modeling, and SHAP-based explainability. The repository combines an exploratory research notebook with a polished Streamlit dashboard that presents saved telemetry outputs and model artifacts.
+
+> **Start here:** This is an explainable space-weather analytics prototype, not a live operational warning or safety-critical forecasting service. It makes the research-to-dashboard workflow inspectable through its telemetry contract, saved artifacts, focused tests, and explicit limitations.
+
+| Recruiter evidence | Where to review it |
+|---|---|
+| Portfolio interaction | [Open the related Space Weather demonstration](https://umershowcase-9jm3bans.manus.space/demos/space-weather) |
+| Analytical flow | [Review the architecture](#architecture) and [dashboard preview](#dashboard-preview) |
+| Run locally | `pip install -r requirements.txt` then `streamlit run dashboard.py` |
+| Test it | `python -m compileall -q dashboard.py dashboard_utils.py tests` then `python -m pytest -q` |
+| Data provenance | [Read the source and data-handling notes](#data-provenance) |
+| Scope boundary | [Review limitations and next steps](#limitations-and-next-steps) |
 
 The project is positioned as an **ML Engineer / Data Scientist portfolio case study**: it demonstrates data preparation, model experimentation, evaluation artifacts, explainability, and product-oriented visualization in one workflow.
 
